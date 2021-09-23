@@ -5,17 +5,17 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/yumaojun03/dmidecode/parser/baseboard"
-	"github.com/yumaojun03/dmidecode/parser/battery"
-	"github.com/yumaojun03/dmidecode/parser/bios"
-	"github.com/yumaojun03/dmidecode/parser/chassis"
-	"github.com/yumaojun03/dmidecode/parser/memory"
-	"github.com/yumaojun03/dmidecode/parser/oem"
-	"github.com/yumaojun03/dmidecode/parser/onboard"
-	"github.com/yumaojun03/dmidecode/parser/port"
-	"github.com/yumaojun03/dmidecode/parser/processor"
-	"github.com/yumaojun03/dmidecode/parser/slot"
-	"github.com/yumaojun03/dmidecode/parser/system"
+	"github.com/klbjlabs/dmidecode/parser/baseboard"
+	"github.com/klbjlabs/dmidecode/parser/battery"
+	"github.com/klbjlabs/dmidecode/parser/bios"
+	"github.com/klbjlabs/dmidecode/parser/chassis"
+	"github.com/klbjlabs/dmidecode/parser/memory"
+	"github.com/klbjlabs/dmidecode/parser/oem"
+	"github.com/klbjlabs/dmidecode/parser/onboard"
+	"github.com/klbjlabs/dmidecode/parser/port"
+	"github.com/klbjlabs/dmidecode/parser/processor"
+	"github.com/klbjlabs/dmidecode/parser/slot"
+	"github.com/klbjlabs/dmidecode/parser/system"
 )
 
 // NewInformationSet todo
