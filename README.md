@@ -64,3 +64,4 @@ func main() {
 ``` sh
 $ go run cmd/main.go -d -t [bios, system, baseboard, chassis, onboard, port, processor, memory, slot]
 ```
+test with no tag
