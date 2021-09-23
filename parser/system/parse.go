@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/klbjlabsmidecode/smbios"
+	"github.com/klbjlabs/dmidecode/smbios"
 )
 
 // Parse 解析smbios struct数据
