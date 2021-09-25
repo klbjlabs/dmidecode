@@ -1,7 +1,6 @@
 package system
 
 import (
-	"bytes"
 	"fmt"
 
 	"github.com/klbjlabs/dmidecode/smbios"
@@ -30,13 +29,13 @@ func Parse(s *smbios.Structure) (info *Information, err error) {
 // If the value is all FFh, the ID is not currently present in the system,
 // but it can be set. If the value is all 00h, the ID is not present in the system.
 func uuid(data []byte, ver string) string {
-	if bytes.Index(data, []byte{0x00}) != -1 {
-		return "Not present"
-	}
-
-	if bytes.Index(data, []byte{0xFF}) != -1 {
-		return "Not settable"
-	}
+	//	if bytes.Index(data, []byte{0x00}) != -1 {
+	//		return "Not present"
+	//	}
+	//
+	//	if bytes.Index(data, []byte{0xFF}) != -1 {
+	//		return "Not settable"
+	//	}
 
 	// if ver > "2.6" {
 	// 	return fmt.Sprintf("%02X%02X%02X%02X-%02X%02X-%02X%02X-%02X%02X-%02X%02X%02X%02X%02X%02X",
